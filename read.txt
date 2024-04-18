@@ -1,0 +1,20 @@
+This code helps to generate truth tables for given logical expressions. The program takes user input for a logical expression and then prints the truth table for that expression. The program also returns the minimum and maximum terms for the given expression.
+
+How to use
+Run the program in your Python environment (for example, IDLE, VS Code, or PyCharm).
+Enter a logical expression when prompted. The expression can only contain up to four variables (A, B, C, and D), and the supported operators are 'and', 'or', 'not', '>>', '^', and '()'.
+Press Enter to generate the truth table for the entered expression.
+The program will print the truth table and the corresponding minimum and maximum terms for the expression.
+Example
+please enter expression: A and B
+A | B | A and B
+----------
+0 | 0 | 0
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 1
+
+Minimum Term:  AB
+Maximum Term:  A̅+B̅
+Note
+This program was created for educational purposes and is not intended for use in production environments. For more advanced logic operations, please refer to a dedicated logic library or consult with a professional
